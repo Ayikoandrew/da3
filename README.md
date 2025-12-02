@@ -66,7 +66,7 @@ This project is actively maintained and welcomes contributions. Feel free to:
 
 ## Citation
 
-This project uses Depth Anything 3. Please cite the original work:
+This project uses Depth Anything 3:
 
 ```bibtex
 @article{depthanything3,
