@@ -10,7 +10,9 @@ The application is continuously being improved with new features, optimizations,
 
 ## About
 
-This project leverages Depth Anything 3, a state-of-the-art monocular depth estimation model, to generate 3D GLB (GL Transmission Format Binary) files from 2D images. The app provides an interface to visualize and interact with the generated 3D models.
+This project leverages Depth Anything 3 (DA3), a state-of-the-art model that predicts spatially consistent geometry from visual inputs with or without known camera poses. DA3 represents a breakthrough in minimal modeling, utilizing a single plain transformer backbone without architectural specialization and a singular depth-ray prediction target that eliminates complex multi-task learning.
+
+The model achieves exceptional performance, setting new state-of-the-art results across visual geometry tasks with significant improvements over previous methods - achieving 35.7% better camera pose accuracy and 23.6% better geometric accuracy. This Flutter application harnesses DA3's capabilities to generate high-quality 3D GLB (GL Transmission Format Binary) files from 2D images, providing an intuitive interface to visualize and interact with the spatially consistent 3D models.
 
 ## GLB File Generation
 
