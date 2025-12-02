@@ -1,0 +1,206 @@
+{
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ],
+      "extras": {
+        "hf_alignment": [
+          [
+            1,
+            -0.00006190362910274416,
+            -0.0002327262336621061,
+            -0.0063729584572834105
+          ],
+          [
+            -0.00006192707951413468,
+            -1,
+            -0.00010080239007947966,
+            0.6134421222020178
+          ],
+          [
+            -0.0002327199763385579,
+            0.00010081679647555575,
+            -0.9999999403953552,
+            1.4910721536034637
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ]
+        ]
+      }
+    }
+  ],
+  "asset": {
+    "version": "2.0",
+    "generator": "https://github.com/mikedh/trimesh"
+  },
+  "accessors": [
+    {
+      "componentType": 5126,
+      "type": "VEC3",
+      "byteOffset": 0,
+      "bufferView": 0,
+      "count": 93915,
+      "max": [
+        1.7849950790405273,
+        1.3325669765472412,
+        0.29326310753822327
+      ],
+      "min": [
+        -1.8161096572875977,
+        -0.6201277375221252,
+        -3.5070526599884033
+      ]
+    },
+    {
+      "componentType": 5121,
+      "count": 93915,
+      "normalized": true,
+      "type": "VEC4",
+      "byteOffset": 0,
+      "bufferView": 1,
+      "max": [
+        254,
+        255,
+        255,
+        255
+      ],
+      "min": [
+        7,
+        8,
+        1,
+        255
+      ]
+    },
+    {
+      "componentType": 5126,
+      "type": "VEC3",
+      "byteOffset": 0,
+      "bufferView": 2,
+      "count": 16,
+      "max": [
+        0.04031527787446976,
+        0.6786943674087524,
+        1.4912939071655273
+      ],
+      "min": [
+        -0.05967092141509056,
+        0.5473043918609619,
+        1.3864465951919556
+      ]
+    },
+    {
+      "componentType": 5121,
+      "normalized": true,
+      "type": "VEC4",
+      "byteOffset": 0,
+      "bufferView": 3,
+      "count": 16,
+      "max": [
+        36,
+        242,
+        242,
+        255
+      ],
+      "min": [
+        36,
+        242,
+        242,
+        255
+      ]
+    }
+  ],
+  "meshes": [
+    {
+      "name": "geometry_0",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "COLOR_0": 1
+          },
+          "mode": 0,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "geometry_1",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 2,
+            "COLOR_0": 3
+          },
+          "mode": 1,
+          "material": 0
+        }
+      ],
+      "extras": {}
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "name": "world",
+      "children": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "geometry_0",
+      "mesh": 0
+    },
+    {
+      "name": "geometry_1",
+      "mesh": 1
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "scene_data.bin",
+      "byteLength": 1502896
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 1126980
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1126980,
+      "byteLength": 375660
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1502640,
+      "byteLength": 192
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1502832,
+      "byteLength": 64
+    }
+  ]
+}
