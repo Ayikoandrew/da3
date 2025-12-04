@@ -107,7 +107,8 @@ class _HomePageState extends State<HomePage> {
                 child: Stack(
                   children: [
                     ModelViewer(
-                      src: "assets/images/scene.glb",
+                      src:
+                          "https://modelviewer.dev/shared-assets/models/Astronaut.glb",
                       alt: "A 3D depth model",
                       ar: true,
                       autoRotate: _autoRotate,
